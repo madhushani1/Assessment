@@ -1,0 +1,59 @@
+.hero {
+  background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+.why, .FAQ {
+  padding: 3rem 0;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+  color: #0d6efd;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+}
+
+.contact .card {
+  background-color: #ffe6f0; /* Light pink */
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-label {
+  font-weight: 600;
+}
+
+.contact .btn {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.specs {
+  background-color: #fdf2f8; /* soft pink tint */
+  color: #212529;
+}
+
+.specs .list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 0.75rem 1rem;
+}
+
+.specs .list-group-item strong {
+  color: #0d6efd;
+}
+
